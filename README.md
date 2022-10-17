@@ -1,7 +1,10 @@
 # Player
 
-<script src="https://firebasestorage.googleapis.com/v0/b/propane-tribute-318508.appspot.com/o/videoplayback.mp4?alt=media&token=7694d0ea-b299-4a29-9c4d-144ec97feff1"></script>
-<video id="video-id"><source src="video.mp4" type="video/mp4" />
+
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+
+<video id="https://firebasestorage.googleapis.com/v0/b/propane-tribute-318508.appspot.com/o/videoplayback.mp4?alt=media&token=7694d0ea-b299-4a29-9c4d-144ec97feff1"><source src="video.mp4" type="video/mp4" />
+
 <script>
     var myFP = fluidPlayer(
         'video-id',	{
